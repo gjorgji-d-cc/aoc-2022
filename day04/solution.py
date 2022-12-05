@@ -6,7 +6,7 @@ def is_overlapped(elf1: list, elf2: list):
 
 
 def is_partly_overlapped(elf1: list, elf2: list):
-    return (elf1[0] >= elf2[0] and elf1[0] <= elf2[1]) or (elf1[1] >= elf2[0] and elf1[1] <= elf2[1]) or (elf2[0] >= elf1[0] and elf2[0] <= elf1[1]) or (elf2[1] >= elf1[0] and elf2[1] <= elf1[1]) 
+    return (elf1[0] >= elf2[0] and elf1[0] <= elf2[1]) or (elf1[1] >= elf2[0] and elf1[1] <= elf2[1]) or (elf2[0] >= elf1[0] and elf2[0] <= elf1[1]) or (elf2[1] >= elf1[0] and elf2[1] <= elf1[1])
 
 
 def part_one():

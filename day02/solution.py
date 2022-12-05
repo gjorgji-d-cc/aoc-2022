@@ -14,21 +14,17 @@ combinations = {
 }
 
 alt_combinations = {
-    "A X": "A Z",  # rock rock
-    "A Y": "A X",  # rock paper
-    "A Z": "A Y",  # rock scissors
-    "B X": "B X",  # paper rock
-    "B Y": "B Y",  # paper paper
-    "B Z": "B Z",  # paper scissors
-    "C X": "C Y",  # scissors rock
-    "C Y": "C Z",  # scissors paper
-    "C Z": "C X",  # scissors scissors
+    "A X": "A Z",  
+    "A Y": "A X",  
+    "A Z": "A Y",  
+    "B X": "B X",  
+    "B Y": "B Y",  
+    "B Z": "B Z",  
+    "C X": "C Y",  
+    "C Y": "C Z",  
+    "C Z": "C X",  
     "": ""
 }
-
-
-def compute_round(opponent: str, outcome: str):
-    pass
 
 
 def part_one():
